@@ -11,3 +11,7 @@ Are you new to CSS? Checkout my Introduction to CSS course
 - Day 2 (Inspired by: [Shah Alam](https://dribbble.com/shots/14093717-Ecommerce-Mobile-App/attachments/5715187))
 
 ![P1](./day2/screenshot.png)
+
+- Day 3 (Inspired by: Glassmorphism CSS + Bukayo Saka 2020/2021 FIFA Ratings)
+
+![P1](./day3/screenshot.png)

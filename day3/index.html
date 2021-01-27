@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Soccer Info</title>
+    <!-- TailWind CSS-->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+    body {
+      font-family: "Josefin Sans", sans-serif;
+      font-size: larger;
+      line-height: 1.5em;
+    }
+  </style>
+  <body class="bg-gray-200 flex items-center justify-center">
+    <div class="flex justify-center items-center pb-32 bg-no-repeat w-full lg:w-2/4 h-screen h-full" style="background-image: url('./stadium.jpg')">
+      <div class="h-auto w-11/12 md:w-auto bg-gray-100 sm:rounded-3xl" style="background-color: rgba(247, 250, 252, 0.6); backdrop-filter: blur(2px); border: 1px solid #f2f2f2">
+        <div class="p-5 flex flex-col md:flex-row justify-between gap-10 md:gap-20">
+          <div class="uppercase">
+            <p class="text-lg font-bold text-red-700">Name: Bukayo Saka ' 7</p>
+            <p class="text-lg font-bold">Age: 19 (2020/2021)</p>
+            <p class="text-lg font-bold">Country: England</p>
+            <p class="text-lg font-bold">Club: Arsenal</p>
+            <img class="hidden md:flex lg:flex md:absolute" src="./sakastat.png" />
+          </div>
+
+          <img class="md:w-1/2" src="./saka.png" />
+        </div>
+        <div class="flex justify-center">
+          <img class="absolute md:hidden lg:hidden right-0" src="./sakastat.png" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
